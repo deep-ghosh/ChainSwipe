@@ -32,7 +32,7 @@ export default function DashboardPage() {
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
           <h1 className="text-lg font-semibold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            Web3 Dashboard
+            DeFi Command Center
           </h1>
         </div>
       </header>
