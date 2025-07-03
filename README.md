@@ -75,5 +75,5 @@ Days 7–8	Final UI polish, optimization, documentation, and deployment
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 🔹 Connect
-📬 https://linktr.ee/deep_ghosh
+📬 [https://linktr.ee/deep_ghosh](https://linktr.ee/deep_ghosh)
 
