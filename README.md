@@ -1,15 +1,3 @@
-Understood. Since GitHub-flavored Markdown does **not support custom font colors**, the most professional and effective way to create visual hierarchy is by using:
-
-* `#`, `##`, `###` headers for **bold section titles**
-* Backticks (`` `code` ``) for **inline code**
-* Bullets and spacing for clarity
-* ✅ Optional icons or emojis **only** for clarity, if allowed
-
-Here is the updated **README with correct markdown syntax**, **bold headers**, and **proper formatting** that will render correctly on GitHub:
-
----
-
-````md
 # 🧾 **ChainSwipe**
 
 **Own Your Credit. Earn from Spending. Prove Your Identity.**
@@ -65,43 +53,27 @@ cd chainswipe
 npm install
 cp .env.example .env.local
 npm run dev
-````
+Visit the app at: http://localhost:3000
 
-Visit the app at: [http://localhost:3000](http://localhost:3000)
+🔹 Environment Variables
+Set the following values in your .env.local:
 
----
-
-## 🔹 Environment Variables
-
-Set the following values in your `.env.local`:
-
-```env
+env
+Copy
+Edit
 NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_project_id
 NEXT_PUBLIC_ALCHEMY_API_KEY=your_alchemy_key
 NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
-```
+🔹 Hackathon Progress
+Phase	Highlights
+Days 1–2	Project setup, UI layout, wallet integration
+Days 3–4	Civil score system, staking, and lending interface
+Days 5–6	NFT rewards, cross-chain bridge, KYC integration
+Days 7–8	Final UI polish, optimization, documentation, and deployment
 
----
+🔹 License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-## 🔹 Hackathon Progress
+🔹 Connect
+📬 https://linktr.ee/deep_ghosh
 
-| Phase    | Highlights                                                   |
-| -------- | ------------------------------------------------------------ |
-| Days 1–2 | Project setup, UI layout, wallet integration                 |
-| Days 3–4 | Civil score system, staking, and lending interface           |
-| Days 5–6 | NFT rewards, cross-chain bridge, KYC integration             |
-| Days 7–8 | Final UI polish, optimization, documentation, and deployment |
-
----
-
-## 🔹 License
-
-This project is licensed under the **MIT License** — see the `LICENSE` file for details.
-
----
-
-## 🔹 Connect
-
-📬 [https://linktr.ee/deep\_ghosh](https://linktr.ee/deep_ghosh)
-
-```
