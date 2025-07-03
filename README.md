@@ -1,44 +1,43 @@
 ChainSwipe
 Own Your Credit. Earn from Spending. Prove Your Identity.
 
-One-liner:
-ChainSwipe is a decentralized finance platform that transforms on-chain activity into a verifiable credit score, enabling access to loans, rewards, and cross-chain financial tools.
+One-Liner
+ChainSwipe is a decentralized finance platform that transforms on-chain activity into a verifiable credit score, enabling users to borrow, stake, and bridge assets in a secure, multi-chain ecosystem.
 
 Description
-ChainSwipe redefines credit in Web3 by introducing a decentralized civil score based on users’ on-chain behavior. It enables collateralized loans, staking, cross-chain bridging, and KYC verification — all within a privacy-preserving, user-controlled ecosystem.
+ChainSwipe reimagines traditional credit scoring by leveraging blockchain activity to build a Civil Score — a transparent, on-chain credit reputation.
+Users can:
 
-Live Demo
-🔗 Dashboard: https://chain-swipe.vercel.app/dashboard
+Borrow stablecoins like USDC using crypto as collateral
 
-Key Features
-Civil Score System — On-chain credit scoring based on activity, KYC, and repayment
+Stake native tokens to earn rewards and boost credit tiers
 
-Lending — Borrow USDC with crypto collateral and dynamic interest rates
+Bridge assets across supported EVM chains
 
-Staking & Rewards — Stake CHAIN tokens, earn APY, and unlock NFT achievements
+Verify identity securely through KYC to unlock premium features
 
-Cross-Chain Bridge — Transfer assets across Ethereum, Polygon, Arbitrum, and Optimism
+🔗 Live Project
+Dashboard:
+👉 https://chain-swipe.vercel.app/dashboard
 
-KYC Integration — Secure identity verification with privacy-first design
-
-Tech Stack
+ Tech Stack
 Frontend: Next.js 15, React, TypeScript, Tailwind CSS
 
-UI Library: shadcn/ui
+UI Library: shadcn/ui (custom Web3 styling)
 
-Blockchain: Ethereum + multi-chain support
+Blockchain: Ethereum with support for Polygon, Arbitrum, Optimism
 
-Wallets: MetaMask, WalletConnect
+Smart Contracts: Solidity (Lending, Staking, Credit Score)
 
-Smart Contracts: Solidity (staking, lending, scoring)
+Wallet Integration: MetaMask, WalletConnect
 
-Getting Started
+ Getting Started
 Prerequisites
-Node.js 18+
+Node.js v18+
 
 Git
 
-MetaMask or any Web3 wallet
+MetaMask or compatible Web3 wallet
 
 Installation
 bash
@@ -51,25 +50,41 @@ cp .env.example .env.local
 npm run dev
 Visit: http://localhost:3000
 
-Environment Variables
+ Environment Variables
+Set your environment in .env.local:
+
 env
 Copy
 Edit
 NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_project_id
 NEXT_PUBLIC_ALCHEMY_API_KEY=your_alchemy_key
 NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
-Hackathon Progress
-Days 1–2: Project setup, wallet integration, UI layout
+📈 Hackathon Progress
+Phase	Tasks Completed
+Days 1–2	Project setup, wallet integration, layout, sidebar navigation
+Days 3–4	Dashboard, Civil Score system, Lending UI & logic, Staking interface
+Days 5–6	Rewards/NFT modules, KYC integration, multi-chain bridge
+Days 7–8	UI polish, performance tuning, testing, documentation, and final deployment
 
-Days 3–4: Dashboard, civil score, lending and staking modules
+✅ Core Features
+✅ On-chain Civil Score with transparent credit logic
 
-Days 5–6: Rewards, NFT system, KYC flow, and bridge functionality
+✅ Collateralized Lending with dynamic interest based on score
 
-Days 7–8: Final polish, optimization, and deployment
+✅ Staking & Rewards System
 
-License
-MIT License — see the LICENSE file.
+✅ NFT Achievements tied to milestones
 
-Connect
-🔗 https://linktr.ee/deep_ghosh
+✅ Cross-Chain Bridging
+
+✅ KYC Verification for compliance
+
+✅ Fully Responsive UI
+
+📄 License
+Licensed under the MIT License. See the LICENSE file for details.
+
+🔗 Connect
+For collaborations, questions, or updates:
+👉 https://linktr.ee/deep_ghosh
 
